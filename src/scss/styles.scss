@@ -1,0 +1,22 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}    
+
+.clr-inverted {
+    filter:invert(100%)
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+#map {
+    border-radius: 10px;
+}
